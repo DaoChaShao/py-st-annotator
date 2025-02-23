@@ -5,6 +5,7 @@
 
 ### Features
 
+- integrate stqdm for progress indication in text annotation ([15e3fe5](https://github.com///commit/15e3fe5e9d8c4f0ad8484a1ab34877761cc37356))
 - add tools.py for English text annotation with color coding ([db72442](https://github.com///commit/db72442adef41ddcaeb4ac0bfaaf55d42f54dba1))
 - add requirements.txt for project dependencies ([a08355a](https://github.com///commit/a08355af3b748ce516f04868720ef90cecaf2a68))
 - add README.md with application introduction and usage instructions ([ec8a81f](https://github.com///commit/ec8a81f6ed5bd386e64062dece49030671ad4a17))
@@ -16,9 +17,11 @@
 
 ### Chore
 
+- add stqdm dependency to requirements.txt ([f803676](https://github.com///commit/f803676fe80c36c35dec8fbd1d15585ebfe51c6f))
 - add initial __init__.py file with main function ([c8a634c](https://github.com///commit/c8a634c20b0b802b0c434a11cb80bffff10284ad))
 
 ### Docs
 
-- add CHANGELOG.md for version 0.1.0 with initial features and chore entries ([d27ac49](https://github.com///commit/d27ac493e744cc2c57155911f924b333bdbd77f3))
+- update Streamlit link in README.md to point to the new application URL ([87aa63f](https://github.com///commit/87aa63f8f5ed46f0d91ce61baccbb69d8d9c394e))
+- add CHANGELOG.md for version 0.1.0 with initial features and chore entries ([aa29c4f](https://github.com///commit/aa29c4fd6745ce98d650335a675ce7b8169e531c))
 
