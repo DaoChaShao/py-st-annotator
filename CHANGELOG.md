@@ -18,3 +18,7 @@
 
 - add initial __init__.py file with main function ([c8a634c](https://github.com///commit/c8a634c20b0b802b0c434a11cb80bffff10284ad))
 
+### Docs
+
+- add CHANGELOG.md for version 0.1.0 with initial features and chore entries ([d27ac49](https://github.com///commit/d27ac493e744cc2c57155911f924b333bdbd77f3))
+
