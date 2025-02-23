@@ -22,6 +22,7 @@
 
 ### Docs
 
+- update CHANGELOG.md to include recent feature and chore entries ([47eb244](https://github.com///commit/47eb24421bab0066467e65c2f1cb7e34b0ff5da1))
 - update Streamlit link in README.md to point to the new application URL ([87aa63f](https://github.com///commit/87aa63f8f5ed46f0d91ce61baccbb69d8d9c394e))
 - add CHANGELOG.md for version 0.1.0 with initial features and chore entries ([aa29c4f](https://github.com///commit/aa29c4fd6745ce98d650335a675ce7b8169e531c))
 
