@@ -8,7 +8,8 @@
 
 from enum import StrEnum, unique
 from re import fullmatch
-from spacy import cli, load
+from spacy import load
+from spacy.cli import download
 from stqdm import stqdm
 from streamlit import markdown
 from string import punctuation
@@ -33,10 +34,18 @@ class Color(StrEnum):
 class EnglishAnnotator(object):
     """ This class is used to annotate text with different colors """
 
+    @staticmethod
+    def is_model():
+        """Ensures that 'en_core_web_sm' is installed."""
+        try:
+            return load("en_core_web_sm")
+        except OSError:
+            download("en_core_web_sm")
+            return load("en_core_web_sm")
+
     def __init__(self, text: str) -> None:
         self._input = text
-        cli.download("en_core_web_sm")
-        self._nlp = load("en_core_web_sm")
+        self._nlp = self.is_model()  # Ensure that 'en_core_web_sm' is installed
         self._doc = self._nlp(self._input)
         self._tokens = [(token.text, token.pos_) for token in self._doc]
 
