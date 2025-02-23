@@ -5,6 +5,7 @@
 
 ### Features
 
+- ensure 'en_core_web_sm' model is installed before loading in EnglishAnnotator ([145b170](https://github.com///commit/145b170464eafc7b994b1a661e14fed82e132514))
 - integrate stqdm for progress indication in text annotation ([15e3fe5](https://github.com///commit/15e3fe5e9d8c4f0ad8484a1ab34877761cc37356))
 - add tools.py for English text annotation with color coding ([db72442](https://github.com///commit/db72442adef41ddcaeb4ac0bfaaf55d42f54dba1))
 - add requirements.txt for project dependencies ([a08355a](https://github.com///commit/a08355af3b748ce516f04868720ef90cecaf2a68))
@@ -22,7 +23,7 @@
 
 ### Docs
 
-- update CHANGELOG.md to include recent feature and chore entries ([47eb244](https://github.com///commit/47eb24421bab0066467e65c2f1cb7e34b0ff5da1))
+- update CHANGELOG.md to include recent feature and chore entries ([f0a764a](https://github.com///commit/f0a764a7e0059318c83b66cb6e4ab109e4564306))
 - update Streamlit link in README.md to point to the new application URL ([87aa63f](https://github.com///commit/87aa63f8f5ed46f0d91ce61baccbb69d8d9c394e))
 - add CHANGELOG.md for version 0.1.0 with initial features and chore entries ([aa29c4f](https://github.com///commit/aa29c4fd6745ce98d650335a675ce7b8169e531c))
 
