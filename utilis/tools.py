@@ -9,6 +9,7 @@
 from enum import StrEnum, unique
 from re import fullmatch
 from spacy import cli, load
+from stqdm import stqdm
 from streamlit import markdown
 from string import punctuation
 
@@ -44,7 +45,7 @@ class EnglishAnnotator(object):
         _annotated: list = []
         _adjust: float = 0.6
 
-        for token, pos in self._tokens:
+        for token, pos in stqdm(self._tokens, desc="Annotating the text...", unit="token", total=len(self._tokens)):
             if token in punctuation:
                 token = (f"<span style='font-size:{size_main}px;"
                          f"display:inline-block;"
